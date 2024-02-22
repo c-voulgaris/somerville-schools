@@ -1,0 +1,16 @@
+,time,flow_name,event,seconds_elapsed,cumulative_seconds
+0,2024-02-22 11:47:24.778170,,"SIMULATION STARTED: VERSION: 0.0.14, RELEASE DATEL 2023-02-06",0.0,0.0
+1,2024-02-22 11:47:24.778170,,"3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:42:31) [MSC v.1937 64 bit (AMD64)]",0.0,0.0
+2,2024-02-22 11:47:24.778170,,"Dependencies: Geopandas:0.14.3, Shapely:2.0.3, Pandas:2.2.0, Numpy:1.26.4, NetworkX:3.2.1",0.0,0.0
+3,2024-02-22 11:47:25.471886,,"network FIle Loaded, Projection: EPSG:26986",0.693716,0.693716
+4,2024-02-22 11:47:27.247989,wh_to_school,network topology created,1.7761030000000002,2.469819
+5,2024-02-22 11:47:27.283972,wh_to_school,"whStudents file wh-students.geojson Loaded, Projection: EPSG:26986",0.035982999999999876,2.505802
+6,2024-02-22 11:47:27.298913,wh_to_school,"wh file wh.geojson Loaded, Projection: EPSG:26986",0.014940999999999871,2.520743
+7,2024-02-22 11:47:27.332652,wh_to_school,Origins and Destinations Inserted.,0.033739000000000186,2.554482
+8,2024-02-22 11:47:27.596858,wh_to_school,NetworkX Graphs Created.,0.2642059999999997,2.818688
+9,2024-02-22 12:16:47.192706,wh_to_school,Betweenness estimated.,1759.595848,1762.414536
+10,2024-02-22 12:16:54.849244,wh_to_school,Output saved,7.656537999999955,1770.071074
+11,2024-02-22 12:16:54.878432,edgerly_to_school,"edgerly file edgerly.geojson Loaded, Projection: EPSG:26986",0.029187999999976455,1770.100262
+12,2024-02-22 12:16:54.909807,edgerly_to_school,Origins and Destinations Inserted.,0.031375000000025466,1770.131637
+13,2024-02-22 12:16:55.225803,edgerly_to_school,NetworkX Graphs Created.,0.315996000000041,1770.447633
+14,2024-02-22 12:28:59.226142,edgerly_to_school,Betweenness estimated.,724.0003389999999,2494.447972

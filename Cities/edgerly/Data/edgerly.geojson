@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "edgerly",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::26986" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Otis St Entrance" }, "geometry": { "type": "Point", "coordinates": [ 233957.365487700444646, 904170.950318065122701 ] } }
+]
+}

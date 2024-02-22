@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "wh",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::26986" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Sycamore St Entrance" }, "geometry": { "type": "Point", "coordinates": [ 233039.48087335206219, 904702.212502758717164 ] } },
+{ "type": "Feature", "properties": { "name": "Thurston St Entrance" }, "geometry": { "type": "Point", "coordinates": [ 233125.462927771761315, 904655.575624355231412 ] } },
+{ "type": "Feature", "properties": { "name": "Evergreen St Entrance" }, "geometry": { "type": "Point", "coordinates": [ 233114.199645425716881, 904702.391285141464323 ] } }
+]
+}

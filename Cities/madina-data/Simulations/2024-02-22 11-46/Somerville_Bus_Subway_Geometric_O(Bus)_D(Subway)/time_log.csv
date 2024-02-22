@@ -1,0 +1,11 @@
+,time,flow_name,event,seconds_elapsed,cumulative_seconds
+0,2024-02-22 11:46:21.670232,,"SIMULATION STARTED: VERSION: 0.0.14, RELEASE DATEL 2023-02-06",0.0,0.0
+1,2024-02-22 11:46:21.674296,,"3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:42:31) [MSC v.1937 64 bit (AMD64)]",0.007115,0.007115
+2,2024-02-22 11:46:21.677347,,"Dependencies: Geopandas:0.14.3, Shapely:2.0.3, Pandas:2.2.0, Numpy:1.26.4, NetworkX:3.2.1",0.003051,0.010166
+3,2024-02-22 11:46:25.322997,,"network FIle Loaded, Projection: EPSG:26986",3.6456500000000003,3.655816
+4,2024-02-22 11:46:27.100257,Somerville_Bus_Subway_Geometric,network topology created,1.7772599999999996,5.433076
+5,2024-02-22 11:46:27.117177,Somerville_Bus_Subway_Geometric,"Bus file bus.geojson Loaded, Projection: EPSG:26986",0.016919999999999824,5.449996
+6,2024-02-22 11:46:27.132546,Somerville_Bus_Subway_Geometric,"Subway file subway.geojson Loaded, Projection: EPSG:26986",0.015369000000000632,5.465365
+7,2024-02-22 11:46:27.151085,Somerville_Bus_Subway_Geometric,Origins and Destinations Inserted.,0.01853899999999964,5.483904
+8,2024-02-22 11:46:27.412509,Somerville_Bus_Subway_Geometric,NetworkX Graphs Created.,0.261423999999999,5.745328
+9,2024-02-22 11:46:30.911925,Somerville_Bus_Subway_Geometric,Betweenness estimated.,3.499416000000001,9.244744

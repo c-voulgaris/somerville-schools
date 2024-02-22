@@ -1,0 +1,2 @@
+Flow_Name,Network_File,Network_Cost,Origin_File,Origin_Name,Origin_Weight,Destination_File,Destination_Name,Destination_Weight,Radius,Beta,Decay,Decay_Mode,Closest_destination,Detour,Elastic_Weights,KNN_Weight,Plateau,Turns,Turn_Threshold,Turn_Penalty
+brown_to_school,network.geojson,Geometric,brown-students.geojson,brownStudents,Count,brown.geojson,brown,Count,1500,0.001,FALSE,,TRUE,1.15,FALSE,,,FALSE,0,0

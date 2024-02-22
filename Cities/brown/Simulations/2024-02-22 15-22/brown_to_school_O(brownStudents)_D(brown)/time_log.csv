@@ -1,0 +1,11 @@
+,time,flow_name,event,seconds_elapsed,cumulative_seconds
+0,2024-02-22 15:22:53.269233,,"SIMULATION STARTED: VERSION: 0.0.14, RELEASE DATEL 2023-02-06",0.0,0.0
+1,2024-02-22 15:22:53.275252,,"3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:42:31) [MSC v.1937 64 bit (AMD64)]",0.007991,0.007991
+2,2024-02-22 15:22:53.276230,,"Dependencies: Geopandas:0.14.3, Shapely:2.0.3, Pandas:2.2.0, Numpy:1.26.4, NetworkX:3.2.1",0.0009779999999999997,0.008969
+3,2024-02-22 15:22:54.148971,,"network FIle Loaded, Projection: EPSG:26986",0.872741,0.88171
+4,2024-02-22 15:22:55.998855,brown_to_school,network topology created,1.8498839999999999,2.731594
+5,2024-02-22 15:22:56.015497,brown_to_school,"brownStudents file brown-students.geojson Loaded, Projection: EPSG:26986",0.016642000000000046,2.748236
+6,2024-02-22 15:22:56.032482,brown_to_school,"brown file brown.geojson Loaded, Projection: EPSG:26986",0.016985000000000028,2.765221
+7,2024-02-22 15:22:56.051767,brown_to_school,Origins and Destinations Inserted.,0.019284999999999997,2.784506
+8,2024-02-22 15:22:56.251753,brown_to_school,NetworkX Graphs Created.,0.199986,2.984492
+9,2024-02-22 15:25:10.531115,brown_to_school,Betweenness estimated.,134.27936200000002,137.263854
