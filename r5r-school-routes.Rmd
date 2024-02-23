@@ -162,7 +162,7 @@ st_write(LTS_4_paths,
 ## Editing Level of Traffic Stress
 
 the R5 engine is guessing level of traffic stress based on common tags in 
-OpenStreetMap.
+OpenStreetMap. You can read more details [here](https://docs.conveyal.com/learn-more/traffic-stress){target="_blank"}.
 
 You can use [JOSM](https://josm.openstreetmap.de/wiki/Download){target="_blank"}
 to edit an *.osm file and set the level of traffic stress explicitly for use
