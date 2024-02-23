@@ -83,7 +83,7 @@ You'll need to set up the R5 core, specifying the directory
 containing the OpenStreetMap network.
 
 ```{r, message=FALSE}
-my_core <- here("osm-network") |>
+my_core <- here("existing-osm-network") |>
   setup_r5()
 ```
 
@@ -159,3 +159,16 @@ st_write(LTS_4_paths,
               "LTS-4-bike-routes.geojson"))
 ```
 
+## Editing Level of Traffic Stress
+
+the R5 engine is guessing level of traffic stress based on common tags in 
+OpenStreetMap.
+
+You can use [JOSM](https://josm.openstreetmap.de/wiki/Download){target="_blank"}
+to edit an *.osm file and set the level of traffic stress explicitly for use
+with R5. Open the *.osm file in JOSM and add a key/value tag of lts=1 to set 
+the level of traffic stress for a link to LTS 1.
+
+For your convenience, I've included a copy of the josm executable in this 
+GitHub repository. I've also included am executable that will convert an 
+\*.osm file to a \*.pbf file for you (these are both for use with a PC).
